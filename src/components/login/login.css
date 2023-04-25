@@ -1,0 +1,61 @@
+#container {
+  place-items: center center;
+  max-width: 100vw;
+  height: 100vh;
+}
+
+nav {
+  display: none;
+}
+
+#header {
+  display: flex;
+  margin-bottom: 10%;
+  flex-direction: column;
+  align-items: center;
+}
+
+#login-form {
+  max-width: 540px;
+}
+
+.logo {
+  width: 140px;
+  height: 100px;
+}
+
+#para {
+  float: right;
+  text-decoration: none;
+  color: black;
+}
+
+#info-div {
+  margin-bottom: 10%;
+}
+
+#info-p {
+  padding-left: 10px;
+  font-size: medium;
+  border-left-width: medium;
+  border-bottom-width: thin;
+  border-left-style: solid;
+  border-bottom-style: groove;
+  border-right-style: hidden;
+}
+
+#back-p {
+  text-align: center;
+  text-decoration: none;
+}
+
+#back-login {
+  text-decoration-line: none;
+  color: black;
+}
+#btn {
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 60%;
+}
